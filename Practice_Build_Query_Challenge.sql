@@ -1,0 +1,12 @@
+--SUBJECT (SubjCode, Description)
+--Primary Key (SubjCode)
+--SUBJECTOFFERING (Year, Semeseter, Fee)
+--Primary Key (Year, Semester)
+--Foreign Key (SubjCode) References SUBJECT
+--TEACHER (StaffID, Surname, GivenName)
+--Primary Key (StaffID)
+--Foreign Key (Surname, GivenName)
+--ENROLMENT (DateEnrolled, Grade)
+--Foreign Key (Year, Semester)
+--STUDENT (StudentID, Surname, GivenName, Gender)
+--Primary Key (StudentID)
