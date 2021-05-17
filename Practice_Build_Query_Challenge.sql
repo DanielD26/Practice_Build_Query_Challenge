@@ -45,4 +45,4 @@ CREATE TABLE ENROLMENT (
    ,DateEnrolled DATE
    ,PRIMARY KEY (StudentID, SubjCode, Year, Semester)
    ,FOREIGN KEY (StudentID) REFERENCES STUDENT
-)
+) 
